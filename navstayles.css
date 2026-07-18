@@ -1,0 +1,44 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+nav{
+    background-color: #e99191;
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1200px;
+margin:auto;
+
+
+}
+h1{
+    background-color: burlywood;
+
+    font-size:30px;
+
+    
+    
+    
+
+}
+ol{
+display:flex;
+justify-content:space-between;
+gap:30px;
+list-style: none;
+margin:30px 25px;
+padding:15px 0px;
+
+
+}
+.login-page{
+    text-emphasis-color:yellow;
+    border:5px solid rgb(52, 34, 3);
+    color:rgb(88, 154, 211)
+    padding:0px 10px;
+
+}

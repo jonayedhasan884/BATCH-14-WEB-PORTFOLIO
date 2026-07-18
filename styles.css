@@ -1,0 +1,332 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin:auto;
+}
+
+
+nav{
+
+
+    display:flex;
+    justify-content:space-between;
+
+    
+    padding:10px 0px;
+    
+    
+
+}
+ol{
+    display:flex;
+    flex-direction: row;
+    width:189px;
+    height:24pX;
+    gap:20px;
+    list-style:none;
+    justify-content:space-between;
+    text-align:center;
+    font-size: medium;
+    align-items: center;
+
+
+
+}
+.Hire-me{
+
+    background-color: #fd6e0a;
+    border-radius: none;
+    text-align: center;
+    
+    
+
+  
+    
+}
+.logo-r{
+    
+    color:#fd6e0a;
+    
+}
+
+.hero-parent{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+   
+}
+.hero-left h2{
+    font-size:40px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.paragraph{
+    font-size:30px;
+    font-weight: 600px;
+}
+.button{
+    display: flex;
+    gap:10px;
+}
+
+.button-1{
+    background-color: #fa6d08;
+    margin-top: 20px;
+    row-gap: 10px;
+
+}
+.button-2{
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.about-me-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+
+
+
+
+}
+
+.about-container{
+    max-width:1200px;
+    margin:auto;
+    background-color: #f0a46d;
+
+    
+}
+
+
+
+
+.about-box-parent{
+    display:flex;
+    gap:30px;
+    margin:20px 0px;
+    padding:20px;
+    
+
+}
+.about-box-parent .box{
+background-color: #8e8989;
+margin:10px;
+padding:5px;
+}
+
+.what-i-do-parent{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:10px;
+    margin-top: 25px;
+
+}
+
+.what-i-do-max-width{
+max-width:1200px;
+margin:auto;
+
+
+
+}
+.what-i-do-card{
+display: flex;
+justify-content: center;
+gap:20px;
+margin:20px auto;
+
+
+} 
+.what-i-do-card .card{
+
+    border:5px solid rgb(251, 148, 148);
+    border-radius: 10px;
+    gap:20px;
+    
+
+}
+.what-i-do-card .card p{
+    color:#757575;
+    text-align: left;
+    
+}
+.what-i-do-card .card h3{
+    text-align: left;
+    
+}
+.resume-parent{
+
+
+max-width:1200px;
+margin:auto;
+
+
+
+}
+.resume-parent-two-side{
+display: grid;
+grid-template-columns:repeat(2 ,2fr);
+gap:200px;
+
+
+
+}
+.resume-parent h1{
+ text-align: center;
+ font-family: "Open Sans";
+ font-style: normal;
+ font-size: 35px;
+
+
+
+
+
+}
+.resume-parent-two-side .education .column-title{
+ text-align: center;
+ font--color: #474747FF;
+ font-family: "Open Sans";
+ font-size: 30px;
+ font-weight: 700;
+ line-height: 1.2;
+ margin-top: 5px;
+ margin-bottom: 8px;
+}
+.resume-parent-two-side .experience .column-title{
+    text-align: center;
+    font--color: #474747FF;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 5px;
+    margin-bottom: 8px;
+
+
+}
+.resume-parent-two-side .resume-item h3{
+       
+    font--color: #474747FF;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+
+.resume-parent-two-side .resume-item h4{
+    font--color: #757575FF;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-top: 2px;
+    margin-bottom: 5px;
+
+}
+.resume-parent-two-side .resume-item p{
+
+    font--color: #757575FF;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+
+}
+.resume-button button{
+
+    
+    width: 200px;
+    height: 64px;
+    left: 700px;
+    top: 3299px;
+    
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.my-amazing-parent{
+
+    text-align: center;
+
+}
+.gallery{
+
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-auto-rows: 250px;
+    margin-top: 20px;
+    gap:12px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six"
+    
+    ;
+    object-fit:cover;
+
+}
+.gallery img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+.box-1{
+grid-area:one;
+
+}
+.box-2{
+    grid-area:two;
+
+}
+.box-3{
+    grid-area:three;
+
+}
+.box-4{
+    grid-area:four;
+
+}
+.box-5{
+
+    grid-area:five;
+}
+.box-6{
+    grid-area:six;
+
+}
+
+
+
+
+
+
+ 
+
+
+
+
